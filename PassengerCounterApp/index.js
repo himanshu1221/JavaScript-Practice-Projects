@@ -1,4 +1,5 @@
 let a = document.getElementById("count-el");
+let s = document.getElementById("results")
 let count = 0;
 
 function incriment(){
@@ -13,9 +14,11 @@ function decriment (){
 
 function reset(){
     count = 0
-    a.innerHTML = count
+    a.innerText = count
+    s.innerText = "Previos entries : "
 }
 
 function save(){
-    console.log(count)
+    let countStr =+ count + " - "
+    s.innerText += countStr  
 }
