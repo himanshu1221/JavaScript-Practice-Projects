@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+}
+
+button{
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: gray;
+    color: white;
+}
+
+#Reset-btn:hover{
+    background-color: red;
+}
+
+#results{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#save-btn:hover{
+    background-color: green;
+}
