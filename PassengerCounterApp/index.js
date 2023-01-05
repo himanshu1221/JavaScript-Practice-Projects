@@ -20,5 +20,7 @@ function reset(){
 
 function save(){
     let countStr =+ count + " - "
-    s.innerText += countStr  
+    s.textContent += countStr  
+    a.textContent = 0
+    count = 0 
 }
